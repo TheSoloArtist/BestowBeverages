@@ -1,135 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bestow</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styles/profile.css">
-  <style>
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      background-color: #49e7ff; 
-      color: #FFF;
-      padding: 1% 0;
-      font-size: 1.2em;
-      border: 0;
-      height: 140px;
-    }
-    .navbar-brand{
-      float: left;
-      min-height: 20px;
-      padding: 0 15px 5px;
-    }
-    navbar-inverse .navbar-navbar.active a, navbar-inverse .navbar-navbar.active a:focus, navbar-inverse .navbar-navbar.active a:hover {
-      color: #FFF;
-      background-color:  #46ddf5 
-    }
-    .navbar-inverse .navbar-nav li a {
-      color:#D5D5D5
-    }
-    .carousel-caption {
-      top: 50%;
-      transform: translateY(-50%);
-      text-transform: uppercase;
-    }
-    .btn {
-      font-size: 18px;
-      color: #FFF;
-      padding: 12px 22px;
-      background: #49e7ff;
-      border: 2px solid #FFF;
-    }
-    /* @media (max-width: 600px) {
-      .carousel-caption {
-        display: none;
-      } //-For mobile--> */
-    }
-
-  </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bestow Food and Beverages</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href=".css">
 </head>
 <body>
-  <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-          <div class="navbar-header">
-            <div class="pos-f-t">
-              <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                  <h4 class="text-white">Collapsed content</h4>
-                  <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-              </div>
-              <!-- <nav class="navbar navbar-dark bg-dark"> -->
-                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  <span class="navbar-toggler-icon"></span>
-                  <span class="navbar-toggler-icon"></span>
-                </button> -->
-              <!-- </nav> -->
-            </div>
-              <a class="navbar-brand" href="index.html"><img src="img/BestowMug.png"></a>
-          </div>
-          <div class="collapse navbar-collapse id="myNavbar">
-              <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  
-              </ul>
-          </div>
-      </div>
-  </nav>
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li> </li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-          <div class="item active">
-          <img src="img/brews2.png">
-          <div class="carousel-caption">
-              <h1>Get to know Bestow</h1>
-              <br> 
-              <button type="button"class="btn bt-default">Get Started</button>
-          </div>
-          </div> <!---End Active-->
-        <div class="item">
-          <img src="img/brews1.png">
-      </div>
-        <div class="item">
-          <img src="img/brews2.png">
-      </div>
-      <!---STart slider controls-->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-  </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/logo1.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link"href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"href="#">Services</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"href="#">Team</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"href="#">Connect</a>
+			</li>
+		</ul> 
+	</div>
+</div>
+</nav>
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0"class ="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">	
+		<img src="img/background1.png">
+		<h1 class="display-2">Bestow</h1>
+		<h3> Bestow food and bevies to those close to you.</h3>
+		<button type="button" class="btn btn-outline-light btn-lg">View Demo</button>
+		<button type ="button" calss="btn btn-primary btn-lg">Get Started</button>
+		</div>
+	</div>	
+	<div class="carousel-item">	
+		<img src="img/background.png">
+	</div>
+	<div class="carousel-item">	
+		<img src="img/background.png">
+	</div>
+</div>	
+</div>
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead"> This service will aid you in avoiding the headaches that come with too many orders from too many friends.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-outline-secondary-btn-lg">Bestow Food and Beverage</button></a>
+	</div>
+</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-sm-12">
+			<h1 class="display-4">Build your wishlists with ease.</h1>
+	</div>
+	<hr>
+<div class="col-12">
+	<p clas="lead">We're here to help you do what you need and allow you to get your friends get what you need, when you need it!</p>
+</div>
+</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-css3"></i>
+		<h3>HTML</h3>
+		<p>Built with the latest version of HTML, HTML5.</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-css3"></i>
+		<h3>Bootstrap</h3>
+		<p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-css3"></i>
+		<h3>CSS</h3>
+		<p>Built with the latest version of CSS, CSS3.</p>
+	</div>
+</div>
+<hr class="my-4">
+</div>
+<!--- Two Column Section -->
+<div class="containter-fluid padding">
+<div class="row padding">
+	<div class="col-md-12 col-lg-6">
+	<h2> If you need it, Bestow it...</h2>
+	<p>With our ease of use there will be no more scrambling with notepads and sticky notes or waiting on a phone call or text to know exactly what you need for those who are depending on your vital decisions.</p>
+	<p>We're here to help! Stress no more.</p>
+	</div>
+	<div>
+	<div class="col-lg-6">
+		<img src="img/desk.png" class="img-fluid">
+	</div>
+</div>
+
+</div>
+<!--- Fixed background -->
 
 
+<!--- Emoji Section -->
 
-  </div><!---End Slider-->
-  <div class="container text center">
-      <h2> WHAAAT?</h2>
-      <div class="row"> 
-          <div class="col-sm-4"
-
-      </div>
+  
+<!--- Meet the team -->
 
 
-  </div>
+<!--- Cards -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Connect -->
+
+
+<!--- Footer -->
+
+
 
 
 </body>
@@ -138,8 +156,12 @@
 
 
 
-<!-- View in Browser: BEASTow Beverages -->
-    <!-- <img src="filler.png" style="max-width: 100%; position: absolute; bottom: 0; left: 0;">
+<!-- View in Browser: Drew's #1 Trending YouTube Tutorial -->
+<!-- <div class="youtube-tutorial">
+	<a href="http://w3n.link/bundle-bonus-playlist" target="_blank" style="cursor: pointer!important;">
+    <img src="https://w3newbie.com/wp-content/uploads/12-site-bundle-banner.png" style="max-width: 100%; position: absolute; bottom: 0;">
   </a>
 </div> -->
-<!-- End View in Browser: BEASTow Beverages -->
+<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
+
+
